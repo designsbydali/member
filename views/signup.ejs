@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Subscriptions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+    <script src="../js/main.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form id="subscription" action="" method="post">
+            <div class="form-field">
+              <label for="amount">Amount</label><br>
+              <input type="number" name="" value="">
+            </div><br>
+            <div class="form-field">
+              <label for="subscription">Subscription</label><br>
+              <input type="text" name="interval" value="">
+            </div><br>
+            <div class="form-field">
+              <p>
+                3.00% on recurring amount — Credit Card Processing Fee<br>
+                Recurs every 3 months starting March 15, 2017
+              </p>
+            </div><br>
+            <div class="form-field">
+              <label for="fname">First Name *</label><br>
+              <input id="fname" type="text" name="firstname" >
+            </div><br>
+            <div class="form-field">
+              <label for="lname">Last Name *</label> <br>
+              <input id='lname' type="text" name="lastname" >
+            </div><br>
+            <div class="form-field">
+              <label for="email">Email Address *</label> <br>
+              <input id="email" type="email" name="email" value="" >
+            </div><br>
+            <div class="form-field">
+              <label for="telephone">Telephone Number *</label> <br>
+              <input id="tel" type="tel" name="phone" value="" >
+            </div><br>
+            <div class="form-field">
+              <label for="commitment">Financial Commitment *</label><br> <input id="commitment" type="radio" name="commitment" value="" > I commit to supporting my community by providing $100 each quarter.
+            </div><br>
+            <div class="form-field">
+              <label for="credit-card">Credit Card Statement *</label><br>
+              <input id="cc" type="radio" name="creditcard" value="" > I understand that this charge will appear as "The Giving Group" on my credit card.
+            </div><br>
+            <div class="form-field">
+              <label for="hear">How did you hear about us?</label><br>
+              <input id="hear" type="text" name="hear" value="">
+            </div><br>
+            <div class="form-field">
+              <input id="submit" type="submit" name="" value="Next -->">
+            </div><br>
+            <pre id="result"></pre>
+          </form>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

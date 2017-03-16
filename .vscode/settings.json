@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".vscode": true
+  },
+  "editor.formatOnSave": true,
+  // When enabled, will trim trailing whitespace when you save a file.
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  // Turns auto fix on save on or off.
+  "eslint.autoFixOnSave": true
+}
